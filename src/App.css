@@ -1,3 +1,290 @@
-body{
-  background-color: chocolate;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+
+body{
+  background-color: rgb(74, 69, 69);
+  margin: 15px;
+}
+
+nav{
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.invisible-button{
+  display: none;
+}
+.Hamburger-menu{
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.Sign-div{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  background-color: rgb(74, 69, 69);
+  padding: 5px;
+}
+
+
+main{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Landing-div{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(74, 69, 69);
+  padding: 5px;
+  margin: 10px;
+}
+
+button{
+  padding: 8px;
+  margin: 2px;
+}
+
+img{
+  width: 90%;
+  height: 100%;
+  margin: 5px;
+}
+
+section{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+article{
+  margin-top: 35px;
+  text-align: center;
+}
+
+.star-icon{
+width: 50px;
+height: 50px;
+border-radius: 50px;
+background-color: red;
+margin-left: 50px;
+}
+
+
+.grid-instant-features{
+  display: grid;
+  grid-template-columns: 200px;
+  gap: 20px;
+  justify-content:center;
+}
+
+
+hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.buttonGoals{
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.image-page-description{
+  margin-bottom: 20px;
+  width: 350px;
+  height: 300px;
+}
+
+.speed-spend{
+text-align: left;
+margin-left: 7px;
+margin-bottom: 20px;
+}
+
+li{
+  list-style:square;
+}
+
+.testimonials{
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: gray;
+}
+.testimonial-image{
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  margin-bottom: 1px;
+}
+
+.testimonial-hr{
+  margin: 7px 7px;
+}
+
+.testimonial-paragraph{
+  margin-left: 10px;
+}
+
+.subscription-div{
+  background-color: rgb(115, 138, 153);
+  margin-top: 35px;
+  padding: 20px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.sub-box1{
+  padding: 5px;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+}
+
+.sub-box2{
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-logo{
+  width:50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: red;
+  text-align: center;
+  padding-top: 8px;
+  margin-bottom: 15px;
+}
+
+footer{
+  margin-left: 5px;
+}
+
+.footer-divs{
+  margin-top: 10px;
+}
+
+.social-media-icons{
+  margin-top: 10px;
+  display: flex;
+}
+
+.display-icons{
+  padding: 0.5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.copyright-div{
+  margin-bottom: 20px;
+
+}
+
+.copyrightss{
+  display: flex;
+  margin-top: 10px;
+}
+
+
+@media screen and (min-width:481px){
+  .grid-instant-features{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+  }
+
+  .star-icon{
+   position: relative;
+   left: 50px; 
+   margin-left: 0px;  
+  }
+  
+  .features{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom:10px;
+    justify-content: center;
+    
+  }
+
+  .three-testimonial-div{
+    display: flex;
+    justify-content:center;
+
+  }
+
+}
+
+@media screen and (min-width:768px){
+  .grid-instant-features{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+  }
+
+  .features{
+    line-height: 30px;
+  }
+
+  .subboxes{
+    display: flex;
+    justify-content: center;  
+  }
+
+  .sub-box2{
+    margin-left: 10px;
+  }
+
+  .footers-divs{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 50px;
+  }
+  
+  .last-footer-div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .star-icon{
+    margin-left: 0px;
+  }
+
+  .invisible-button{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .invisible-buttons{
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 2px; 
+  }
+
+  .menu-bars, .Sign-div{
+    display: none;
+  }
+
+ 
+}
+
+
+
